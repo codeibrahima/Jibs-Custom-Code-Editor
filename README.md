@@ -1,4 +1,5 @@
 
+
   
 
 # Jibs custom code documentation
@@ -9,7 +10,7 @@
 
   
 
-Jibs app is a minimalist page builder to create a beautiful and responsive website and landing page in minutes.
+[**Jibs**](https://jibsapp.com) is a minimalist page builder to create a beautiful and responsive website and landing page in minutes.
 
 While the app's primary purpose is to build a website without code, Jibs lets you create custom pages and sections with code.
 
@@ -34,3 +35,5 @@ Talking about CSS, You also have access to the tailwind.
 
 ###  👩‍💻 Example folder
 You'll find in the example folder , sample of pages, and section write using custom code. 
+
+
