@@ -1,0 +1,101 @@
+<style>
+  .cssanimation,
+  .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  .cssanimation span {
+    display: inline-block
+  }
+
+  .fadeInBottom {
+    animation-name: fadeInBottom
+  }
+
+  @keyframes fadeInBottom {
+    from {
+      opacity: 0.5;
+      transform: translateY(100%);
+    }
+
+    to {
+      opacity: 1
+    }
+  }
+
+</style>
+
+<section class="text-gray-600 body-font">
+  <div class=" px-5 py-24 mx-auto fadeInBottom cssanimation ">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-1 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400"
+            alt="blog">
+          <div class="p-6">
+
+            <h1 class="title-font text-lg font-medium text-blue-900 ">Interface Components</h1>
+            <h2 class="tracking-widest text-xs title-font font-bold text-gray-300 mb-1 mb-3">Sept 2022</h2>
+            <p class="leading-relaxed mb-3">Pellentesque in ipsum id orci porta dapibus. Curabitur aliquet.</p>
+            <div class="flex text-rght justify-end items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-1 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401"
+            alt="blog">
+          <div class="p-6">
+
+            <h1 class="title-font text-lg font-medium text-gray-900">Responsive Sections
+            </h1>
+            <h2 class="tracking-widest text-xs title-font font-bold text-gray-300 mb-1 mb-3">Sept 2022</h2>
+            <p class="leading-relaxed mb-3">Pellentesque in ipsum id orci porta dapibus. Curabitur aliquet.</p>
+            <div class="flex justify-end items-center flex-wrap">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-1 border-gray-200 border-opacity-60 rounded-lg overflow-hidden shadow">
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402"
+            alt="blog">
+          <div class="p-6">
+
+            <h1 class="title-font text-lg font-medium text-gray-900">Website Templates
+            </h1>
+            <h2 class="tracking-widest text-xs title-font font-bold text-gray-300 mb-1 mb-3">Sept 2022</h2>
+            <p class="leading-relaxed mb-3">Pellentesque in ipsum id orci porta dapibus. Curabitur aliquet.</p>
+            <div class="flex justify-end items-center flex-wrap ">
+              <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
